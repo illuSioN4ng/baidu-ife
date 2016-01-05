@@ -1,0 +1,193 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    background-color: red;
+    width:960px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.div{
+    margin-top: 10px;
+    position: relative;
+}
+.div2{
+    background-color: red;
+    position: absolute;
+    left: 50%;
+}
+
+.margin{
+     width:960px;
+     height: 100px;
+     margin-left: -480px;
+}
+
+.div3{
+    margin-top: 150px;
+}
+.b1,.b2,.b3,.b4,.b1b,.b2b,.b3b,.b4b,.b{display:block;overflow:hidden;}
+.b1,.b2,.b3,.b1b,.b2b,.b3b{height:1px;}
+.b2,.b3,.b4,.b2b,.b3b,.b4b,.b{border-left:1px solid #999;border-right:1px solid #999;}
+.b1,.b1b{margin:0 5px;background:#999;}
+.b2,.b2b{margin:0 3px;border-width:2px;}
+.b3,.b3b{margin:0 2px;}
+.b4,.b4b{height:2px;margin:0 1px;}
+.d1{background:red;}
+.k {height:300px;}
+
+.div4{
+    margin-top: 50px;
+    overflow: hidden;
+}
+.top2, .bottom2, .top3, .bottom3, .top4, .bottom4, .top5, .bottom5{
+    height: 1px;
+    background: lightblue;
+    overflow: hidden;
+}
+.top1, .bottom1{
+    margin: 0px 5px;
+    border-top: solid 1px black;
+}
+.top2, .bottom2{
+    margin: 0px 3px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+.top3, .bottom3{
+    margin: 0px 2px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+.top4, .bottom4{
+    margin: 0px 1px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+.top5, .bottom5{
+    margin: 0px 1px;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+.main{
+    height: 100%;
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+    background: lightblue;
+}
+
+.divA{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    float: left;
+}
+
+.divB{
+    height: 100px;
+    background-color: blue;
+    margin-left: 100px;
+}
+
+.divC{
+    height: 100px;
+    width: 100%;
+    background-color: khaki;
+}
+
+.div6{
+    position: relative;
+}
+.divA1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+}
+
+.divB1{
+    height: 100px;
+    background-color: blue;
+    margin-left: 100px;
+}
+
+.divC1{
+    height: 100px;
+    width: 100%;
+    background-color: khaki;
+}
+
+.div7{
+    margin-top: 50px;
+}
+.diva{
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.divb{
+    margin: 0px 100px;
+    background-color: blue;
+    height: 100px;
+}
+
+.divc{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.div8{
+    margin-top: 50px;
+    padding: 0 100px 0 100px;
+}
+.diva1{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background: red;
+}
+
+.divb1{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: -100%;
+    position: relative;
+    left: -100px;
+    background: blue;
+}
+
+.divc1{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-left: -100px;
+    position: relative;
+    right: -100px;
+    background: blue;
+}
+
+.div9{
+    background-color: red;
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.flexbox{
+    float: left;
+    margin: 10px 10px;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.clr{
+    clear: both;
+}
